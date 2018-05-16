@@ -113,6 +113,7 @@ list(APPEND gr_ieee802_11_sources
     equalizer/sta.cc
     ether_encap_impl.cc
     frame_equalizer_impl.cc
+    frame_detection_short_impl.cc
     mac.cc
     mapper.cc
     parse_mac.cc

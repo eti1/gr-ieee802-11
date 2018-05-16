@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<block>
+  <name>WiFi Frame detection short</name>
+  <key>ieee802_11_frame_detection_short</key>
+  <category>[IEEE802.11]</category>
+  <import>import ieee802_11</import>
+  <make>ieee802_11.frame_detection_short()</make>
+  <sink>
+    <name>in</name>
+    <type>short</type>
+    <vlen>2</vlen>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>
